@@ -13,3 +13,4 @@
 		userTable="users" userNameCol="username" userCredCol="userpass"
 		userRoleTable="user_roles" roleNameCol="rolename" />
 </Context>
+//
