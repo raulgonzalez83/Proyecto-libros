@@ -7,7 +7,7 @@ create table users (
 username		varchar(50) not null primary key,
 userpass		char(50) not null,
 name			varchar(50) not null,
-email			varchar(100) not null
+email			varchar(10) not null
 );
  
 create table user_roles (
