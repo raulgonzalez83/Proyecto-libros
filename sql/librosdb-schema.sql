@@ -22,7 +22,7 @@ create table users (
 create table reviews (
 	id 						int not null auto_increment primary key,
 	bookid 					int(50) not null,
-	username				varchar(50) not null,
+	username				varchar(500) not null,
 	content					varchar(500) not null,
 	last_modified			timestamp,
 	foreign key(bookid) references books(id),
